@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanChuan--Test</title>
+    <link rel="stylesheet" href="./styles/cars-infor-manage.css">
+    <link rel="stylesheet" href="./styles/self-adapation.css">
+</head>
+<body>
+    <div class="container">
+        <!-- nav -->
+        <div class="nav-top"></div>
+        <!-- nav end -->
+        <div class="flex">
+            <!-- menu -->
+            <div class="menu-left"></div>
+            <!-- menu end -->
+            <!-- 车辆信息 -->
+            <div class="content-wrap">
+                <div class="current-menu flex flex-center">
+                    <div>首页</div>
+                    <div>用户管理<span class="close-icon">X</span></div>
+                    <div class="active">充电站申请<span class="close-icon">X</span></div>
+                    <div>租户组管理<span class="close-icon">X</span></div>
+                </div>
+                <div class="content">
+                    <div class="detail-infor">
+                        <div class="title-box flex flex-center">
+                            <span class="line"></span>
+                            <h3 class="title">车辆信息管理</h3>
+                            <img class="back-icon" src="./assets/icons/Frame.png" alt="back-icon">
+                        </div>
+                        <div class="flex">
+                            <div class="first-col col">
+                                <div class="item-infor"><span class="name">车辆所有人:</span><span class="name-value">代用名</span></div>
+                                <div class="item-infor"><span class="name">车牌号:</span><span class="name-value">苏ADE1234</span></div>
+                                <div class="item-infor"><span class="name">车辆品牌:</span><span class="name-value">东风</span></div>
+                                <div class="item-infor"><span class="name">底牌号:</span><span class="name-value">0</span></div>
+                                <div class="item-infor"><span class="name">车辆VIN码:</span><span class="name-value">LDP31B964NG089819</span></div>
+                            </div>
+                            <div class="second-col col">
+                                <div class="item-infor"><span class="name">审核进度:</span><span class="name-value status">审核通过</span></div>
+                                <div class="item-infor"><span class="name">联系电话:</span><span class="name-value">13579416984</span></div>
+                                <div class="item-infor"><span class="name">车辆型号:</span><span class="name-value">E70</span></div>
+                                <div class="item-infor"><span class="name">发动机号:</span><span class="name-value">0</span></div>
+                                <div class="item-infor"><span class="name">购车日期:</span><span class="name-value">2023-02-06 07:21:24</span></div>
+                            </div>
+                            <div class="third-col col">
+                                <div class="item-infor"><span class="name">车辆外观:</span><span class="name-value appearance"></span></div>
+                                <div class="item-infor"><span class="name">车辆性质:</span><span class="name-value">2023-02-06 07:21:24</span></div>
+                                <div class="item-infor"><span class="name">车辆识别号:</span><span class="name-value">316561323034</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 换电次数 -->
+                    <div class="changes-power-detail">
+                        <div class="tab-wrap">
+                            <div class="tab">
+                                <span class="tab-name active">换电次数</span>
+                                <span class="tab-name">换电消费</span>
+                                <div class="tab-line"></div>
+                            </div>
+                        </div>
+                        <div class="data-cards flex flex-between">
+                            <div class="num-card item-card flex flex-center">
+                                <div>
+                                    <img class="icon" src="./assets/icons/flash.png" />
+                                </div>
+                                <div class="right-data">
+                                    <div class="name">换电次数（次）</div>
+                                    <div class="data">8796</div>
+                                </div>
+                            </div>
+                            <div class="today-card item-card card2 flex flex-center">
+                                <div >
+                                    <img class="icon" src="./assets/icons/flash.png" />
+                                </div>
+                                <div class="right-data">
+                                    <div class="name">今日换电次数（次）</div>
+                                    <div class="data">8796</div>
+                                </div>
+                            </div>
+                            <div class="month-card item-card flex flex-center">
+                                <div>
+                                    <img class="icon" src="./assets/icons/flash.png" />
+                                </div>
+                                <div class="right-data">
+                                    <div class="name">本月换电次数（次）</div>
+                                    <div class="data">8796</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title-box flex flex-center">
+                            <span class="line"></span>
+                            <h3 class="title">换电次数统计</h3>
+                        </div>
+                        <div class="echarts-top flex">
+                            <div class="left-min-title">车辆换电</div>
+                            <div class="right-select-years flex flex-center">
+                                <span class="mark-block"></span>
+                                <span>换电次数</span>
+                                <div class="select"></div>
+                            </div>
+                        </div>
+                        <div class="echarts"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

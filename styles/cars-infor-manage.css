@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.container,.content-wrap{
+    width: 100%;
+    height: auto;
+}
+.nav-top{
+    width: 1440px;
+    height: 64px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.menu-left{
+    width: 16%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+.current-menu{
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    color: #585858;
+}
+.current-menu div{
+    width: 120px;
+    height: 100%;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+}
+.current-menu .active{
+    color: #4C91FF;
+    background-color: #eee;
+}
+.current-menu .close-icon{
+    margin-left: 11px;
+}
+/* 车辆信息内容区 */
+.content{
+    width: calc(100% - 32px);
+    height: auto;
+    padding: 16px;
+    background-color: #eee;
+}
+/* 车辆信息 */
+.detail-infor{
+    height: 236px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 16px 0 16px 0;
+}
+.col{
+    width: 33.33%;
+}
+.title-box{
+    margin-bottom: 16px;
+}
+.title{
+    margin-left: 16px;
+    font-size: 16px;
+}
+.detail-infor .back-icon{
+    width: 22px;
+    height: 22px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.first-col{
+    margin-left: 16px;
+}
+.item-infor{
+    margin-top: 16px;
+}
+.name{
+    width: 84px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #585858;
+    line-height: 16px;
+    display: inline-block;
+    text-align: left;
+}
+.name-value{
+    font-size: 14px;
+    font-weight: 400;
+    color: #171717;
+    line-height: 16px;
+    margin-left: 10px;
+}
+.status{
+    font-size: 14px;
+    font-weight: 400;
+    color: #4c91ff;
+    line-height: 16px;
+}
+
+.appearance{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-color: #D9D9D9;
+    border-radius: 4px;
+    vertical-align: text-top;
+}
+/* 换电数据展示 */
+.changes-power-detail{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 16px;
+    padding-bottom: 32px;
+}
+.tab-wrap{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.tab{
+    color: #808080;
+    padding-top: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    border-bottom: 2px solid #cdd7d5;
+    padding-bottom: 12px;
+}
+.tab .tab-name{
+    margin-left: 32px;
+    cursor: pointer;
+}
+.tab .active{
+    color: #4C91FF;
+}
+/* 卡片数据 */
+.data-cards{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.card2{
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+}
+.item-card{
+    width: 33.33%;
+    height: 110px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.data-cards .icon{
+    width: 48px;
+    height: 48px;
+    margin-left: 53px;
+    margin-right: 20px;
+}
+.data-cards .right-data{
+    white-space: nowrap;
+}
+.data-cards .right-data .name{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 16px;
+}
+.data-cards .right-data .data{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 28px;
+    margin-top: 16px;
+}
+.num-card{
+    background-image: url('../assets/icons/card1.png');
+}
+.today-card{
+    background-image: url('../assets/icons/card2.png');
+}
+.month-card{
+    background-image: url('../assets/icons/card3.png');
+}
+.line{
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: #4C91FF;
+}
+.mark-block{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #4C91FF;
+    border-radius: 4px;
+    margin-right: 8px;
+
+}
+/* Echarts信息展示 */
+.echarts-top{
+    height: 36px;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    color: #171717;
+    line-height: 24px;
+    padding: 0 16px 0 16px;
+}
+.echarts{
+    width: calc(100% - 32px);
+    height: 406px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 16px;
+}
+.left-min-title{
+    /* margin-left: 16px; */
+}
+.select{
+    width: 304px;
+    height: 36px;
+    border: 1px solid #eee;
+    margin-left: 140px;
+}
+
+/* public */
+.flex{
+    display: flex;
+}
+.flex-center{
+    align-items: center;
+}
+.flex-between{
+    justify-content: space-between;
+}
+.float-left{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
